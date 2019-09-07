@@ -1,0 +1,209 @@
+{% extends "stuymunc/home.html" %}
+{% block head %}
+
+<!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"> -->
+
+{% endblock %}
+
+{% block body %}
+<section id="team">
+  <div class="container wow fadeInUp">
+    <h2>Committees</h2>
+    <hr>
+    <div class="section-header">
+      <h3 class="section-title">General Assemblies</h3>
+      </div>
+      <div class="row">
+        <div class="col">
+            <div class="accordion" id="gaAccordion">
+              <div class="card">
+                <div class="card-header" id="GAheadingOne" data-toggle="collapse" data-target="#GAcollapseOne" aria-expanded="false" aria-controls="GAcollapseOne">
+                  <h4>
+                      United Nations General Assembly First Committee - DISEC
+                  </h4>
+                </div>
+                <div id="GAcollapseOne" class="collapse" aria-labelledby="GAheadingOne" data-parent="#gaAccordion">
+                  <div class="card-body">
+                        <center><b><p style="font-style: italic;">TOPIC A - RESOLVING THE CYPRUS CONFLICT</p></b></center>
+                        <center><b><p style="font-style: italic;">TOPIC B - TACKLING SECURITY CHALLENGES OF THE ARCTIC</p></b></center>
+
+                          <p>The Cyprus conflict is commonly referred to as the "graveyard of diplomacy", and is widely considered a stalemate between two equally persistent parties, the Greeks and the Turks. The ethnic makeup of the island of the two primary groups, of which the former comprise the majority, has led to unrest and strife that since 1974, has resulted in the partition of the island into two portions. The Republic of Cyprus is the officially recognized entity, and is primarily Greek in makeup, while the Turkish Republic of Northern Cyprus, obviously comprising of Turkish Cypriots, is the breakaway Turkish stronghold on an island now renowned for its political gridlock.</p>
+  <p>The Arctic Ocean, also known as "the last frontier", is evolving into a geographical space of increasing importance and relevance in global politics, due to its growing viability as a valuable region as a result of climate change, that can be used to fuel global economies, but also taken as a matter of geopolitical contention. Since challenges posed by the opening of such an untouched area can prove volatile in sparking international conflict, such critical issues must be ironed out before the area can be used for global benefit.</p>
+<hr>
+                    <a href="{{url_for('static', filename='lib/BackgroundGuides/DISEC.pdf')}}" style="text-align:right;"><h4>Background Guide</h4></a>
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-header" id="GAheadingTwo" data-toggle="collapse" data-target="#GAcollapseTwo" aria-expanded="false" aria-controls="GAcollapseTwo">
+                  <h4>
+                      United Nations General Assembly Third Committee - SOCHUM
+                  </h4>
+                </div>
+                <div id="GAcollapseTwo" class="collapse" aria-labelledby="GAheadingTwo" data-parent="#gaAccordion">
+                  <div class="card-body">
+                      <center><b><p style="font-style: italic;">TOPIC A - PROTECTING INDIGENOUS PEOPLES’ RIGHTS</p></b></center>
+                      <center><b><p style="font-style: italic;">TOPIC B - PREVENTING DOMESTIC VIOLENCE
+</p></b></center>
+
+                        <p>For hundreds of years indigenous populations have been repeatedly marginalized by the global community. In this committee we aim to take a global perspective on how to tackle issues facing the indigenous communities. From poverty and access to job opportunities to expanding access to healthcare and reducing discrimination, this committee aims to come up with feasible solutions to these pressing issues.</p>
+  <p>The issue of domestic violence has been a taboo for as long as the concept of partnership has existed. In this committee we are hoping to lift the veil on the horrible reality of domestic violence and arrive at practical solutions to help make the victims of domestic violence safer, as well as breaking taboos about speaking out against domestic abusers. We also aim to address what, if anything, this committee can do to create global frameworks to address issues such as reporting and punishing domestic abusers. We will also focus on defining what constitutes domestic violence, as well as the oft forgotten members of the LGBT+ community.</p>
+                    <hr><a href="{{url_for('static', filename='lib/BackgroundGuides/SOCHUM.pdf')}}" style="text-align:right;"><h4>Background Guide</h4></a>
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-header" id="GAheadingThree" data-toggle="collapse" data-target="#GAcollapseThree" aria-expanded="false" aria-controls="GAcollapseThree">
+                  <h4>
+                      World Health Organization - WHO
+                  </h4>
+                </div>
+                <div id="GAcollapseThree" class="collapse" aria-labelledby="GAheadingThree" data-parent="#gaAccordion">
+                  <div class="card-body">
+                      <center><b><p style="font-style: italic;">TOPIC A - INFANT MORTALITY</p></b></center>
+                      <center><b><p style="font-style: italic;">TOPIC B - PRIVATIZATION OF HEALTHCARE
+  </p></b></center>
+
+                        <p>The World Health Organization (WHO) was established on April 7, 1948 following the creation of the United Nations (UN) in 1945. The goals of providing leadership on emerging health issues, setting health-based norms and standards, conducting research, disseminating knowledge, using evidence and ethics in policy, providing technological support, and monitoring and assessing healthcare trends. In the seventy years that the WHO has existed, it has combated a wide variety of diseases with a myriad of healthcare initiatives and many major successes. In this committee’s session, the delegations of WHO will focus on addressing global infant mortality and the privatization of healthcare. The risk of a child dying before completing the first year of age in the WHO African Region is highest at a rate of 51 per 1000 live births. This committee will work on ameliorating this ongoing crisis. For our second topic, the WHO committee will debate on the ethicality of the privatization of healthcare. Healthcare privatization is not only an issue that affects first world countries, but is a developing discussion in the MENA area as well. </p>
+                    <hr><a href="{{url_for('static', filename='lib/BackgroundGuides/WHO.pdf')}}" style="text-align:right;"><h4>Background Guide</h4></a>                  </div>
+                </div>
+              </div>
+            </div>
+
+        </div>
+        </div>
+        <br><hr>
+        <div class="section-header">
+        <h3 class="section-title">Specialized Committees</h3>
+        </div>
+        <div class="row">
+          <div class="col">
+
+              <div class="accordion" id="specializedAccordion">
+                <div class="card">
+                  <div class="card-header" id="SPECheadingOne" data-toggle="collapse" data-target="#SPECcollapseOne" aria-expanded="false" aria-controls="SPECcollapseOne">
+                      <h4>International Atomic Energy Agency</h4>
+
+                  </div>
+                  <div id="SPECcollapseOne" class="collapse" aria-labelledby="SPECheadingOne" data-parent="#specializedAccordion">
+                    <div class="card-body">
+                      <p>Only a few months into 2018, Saudi Arabia made the decision to begin phasing out its oil industry before the value of petroleum dropped - instead of turning to its country’s massive solar potential, though, they sought out the help of the United States in establishing a nuclear energy program. However, the nation refuses to outsource its nuclear fuel, opting instead to domestically enrich its uranium at a higher cost. This raises the question of whether, if allowed the facilities, this plan could be a smokescreen for further enrichment into weapons-grade uranium, and thereby an eventual nuclear arsenal. In this committee, you will be faced with the challenge of navigating the tense political balance between the countries with nuclear weaponry and those looking to seize hold of it, and determining how best to approach nuclear deals in the future.</p>
+                      <hr><a href="{{url_for('static', filename='lib/BackgroundGuides/IAEA.pdf')}}" style="text-align:right;"><h4>Background Guide</h4></a>
+                    </div>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card-header" id="SPECheadingTwo" data-toggle="collapse" data-target="#SPECcollapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                      <h4>League of Lezhë (1444)</h4>
+
+                  </div>
+                  <div id="SPECcollapseTwo" class="collapse" aria-labelledby="SPECheadingTwo" data-parent="#specializedAccordion">
+                    <div class="card-body">
+                     <p>It is March 2, 1444. Noble lords from all over Albania have gathered in Lezhë to unite against the threatening force of the Ottoman Empire. While maintaining (and working to improve) their own statuses among each other, delegates will work to keep the Albanian spirit alive. Compiling a resolution to the war with the Ottomans, while simultaneously tempering tensions with the overarching Venetian government, Albania—and the world around it—will never be the same. This committee is for delegates who wished to be challenged by a topic that has never before been simulated in Model UN.</p>
+                     <hr><a href="{{url_for('static', filename='lib/BackgroundGuides/League of Lezhe.pdf')}}" style="text-align:right;"><h4>Background Guide</h4></a>
+                    </div>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card-header" id="SPECheadingThree" data-toggle="collapse" data-target="#SPECcollapseThree" aria-expanded="false" aria-controls="SPECcollapseThree">
+                    <h4>Qatar Embargo (2017)</h4>
+
+                  </div>
+                  <div id="SPECcollapseThree" class="collapse" aria-labelledby="SPECheadingThree" data-parent="#specializedAccordion">
+                    <div class="card-body">
+                      <p>In June of 2017, the nations of Bahrain, The Comoros, Djibouti, Egypt, Jordan, The Maldives, Mauritania, Saudi Arabia, Senegal, and the United Arab Emirates all severed diplomatic relations with Qatar and imposed an economic embargo by banning Qatari airplanes and ships from entering their airspace and sea-routes. It is with this perspective, and the knowledge of Qatar’s increasingly global presence within affairs and events such as the 2022 FIFA World Cup, that this committee will look at the crisis, its implications, and ways in which to move forward.</p>
+                      <hr><a href="{{url_for('static', filename='lib/BackgroundGuides/Qatar Embargo.pdf')}}" style="text-align:right;"><h4>Background Guide</h4></a>
+                    </div>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card-header" id="SPECheadingFour" data-toggle="collapse" data-target="#SPECcollapseFour" aria-expanded="false" aria-controls="SPECcollapseFour">
+                      <h4>The Weimar Republic (1919)</h4>
+
+                  </div>
+                  <div id="SPECcollapseFour" class="collapse" aria-labelledby="SPECheadingFour" data-parent="#specializedAccordion">
+                    <div class="card-body">
+                      <p>Post-war Germany has fallen into chaos - Kaiser Wilhelm II has been successfully removed from office and the House of Hohenzollern has almost entirely relinquished its control over the country. The delegates elected to this National Assembly must make a constitution articulating the role and form of the new government. This task has become extraordinarily difficult because of the multiple crises facing Germany in the post-war era: the painful economic hardships, largely caused by the Treaty of Versailles, have resulted in hyperinflation, debt, and less overall economic activity. Because of this economic and social anxiety, radical political groups on the far right and left, and radical communists attempting to overthrow the government have begun to crop up. Delegates must be prepared not only to create a functional government, but one that is sustainable in the face of political and economic turmoil. </p>
+                      <hr><a href="{{url_for('static', filename='lib/BackgroundGuides/Weimar Republic.pdf')}}" style="text-align:right;"><h4>Background Guide</h4></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+          </div>
+          </div>
+          <br><hr>
+          <div class="section-header">
+          <h3 class="section-title">Crisis Committees</h3>
+          </div>
+          <div class="row">
+            <div class="col">
+                <div class="accordion" id="crisisAccordion">
+                  <div class="card">
+                    <div class="card-header" id="CRISISheadingOne" data-toggle="collapse" data-target="#CRISIScollapseOne" aria-expanded="false" aria-controls="CRISIScollapseOne">
+                        <h4>Ben Gurion's Cabinet (1948)</h4>
+
+                    </div>
+                    <div id="CRISIScollapseOne" class="collapse" aria-labelledby="CRISISheadingOne" data-parent="#crisisAccordion">
+                      <div class="card-body">
+                        <p>This committee will simulate David Ben Gurion’s war cabinet immediately after the Israeli declaration of Independence. All assigned positions are crucial to the survival of the fledgling Jewish state. Delegates will be required to cooperate and use their ingenuity to navigate the tempestuous and volatile region that is Palestine in 1948.</p>
+                        <hr><a href="{{url_for('static', filename='lib/BackgroundGuides/Ben Gurion.pdf')}}" style="text-align:right;"><h4>Background Guide</h4></a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <div class="card-header" id="CRISISheadingTwo" data-toggle="collapse" data-target="#CRISIScollapseTwo" aria-expanded="false" aria-controls="CRISIScollapseTwo">
+                        <h4>  The Godfather</h4>
+
+                    </div>
+                    <div id="CRISIScollapseTwo" class="collapse" aria-labelledby="CRISISheadingTwo" data-parent="#crisisAccordion">
+                      <div class="card-body">
+                        <p>The Godfather committee will be held as a family meeting between members of the Corleone family, as well as their friends and benefactors, business partners, and anyone else who may have anything to do with family affairs. We take family very seriously, and to be trusted with the family business is a great honor that each delegate holds. We will work together as a family to figure out how to continue operations as usual, regardless of the status of our political protection, and we will work out any conflicts with the other families tactfully, acting as the Godfather would. The Godfather (your chair and director) would like to urge all those invited to please know the current state of family affairs, and not attend the meeting not being able to contribute due to their own ignorance (watch the movies!!! It’s the best - and only - way to research).</p>
+                        <hr><a href="{{url_for('static', filename='lib/BackgroundGuides/The Godfather.pdf')}}" style="text-align:right;"><h4>Background Guide</h4></a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <div class="card-header" id="CRISISheadingThree" data-toggle="collapse" data-target="#CRISIScollapseThree" aria-expanded="false" aria-controls="CRISIScollapseThree">
+                        <h4>  Yakuza (2018)</h4>
+
+                    </div>
+                    <div id="CRISIScollapseThree" class="collapse" aria-labelledby="CRISISheadingThree" data-parent="#crisisAccordion">
+                      <div class="card-body">
+                        <p>Japan’s yakuza organizations, once dominating the streets of major Japanese cities with a big part in how the country as a whole functioned, have seen their numbers dramatically diminish since the early 60s. Legal crackdown, police intervention, gang warfare and clan fractures have hurt the yakuza and their prospects, and this committee will be tasked with bringing these organizations back into a state of power in modern times.</p>
+                        <hr><a href="{{url_for('static', filename='lib/BackgroundGuides/Yakuza.pdf')}}" style="text-align:right;"><h4>Background Guide</h4></a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <div class="card-header" id="CRISISheadingFour" data-toggle="collapse" data-target="#CRISIScollapseFour" aria-expanded="false" aria-controls="CRISIScollapseFour">
+                        <h4>  JCC Kargil War: The Fight for Kashmir: India</h4>
+
+                    </div>
+                    <div id="CRISIScollapseFour" class="collapse" aria-labelledby="CRISISheadingFour" data-parent="#crisisAccordion">
+                      <div class="card-body">
+                        <p>The “JCC Kargil War— The Battle for Kashmir” committee will aim to resolve disputes between India and Pakistan as both nations fight over the Siachen Glacier region. The partition of 1947 created unresolved tension, which was never fully addressed by treaties made thereon after. The Indian side will aim to keep the ‘Line of Control’ as it stands currently, while the Pakistan side will seek to extend the border into current Indian territory. </p>
+                        <hr><a href="{{url_for('static', filename='lib/BackgroundGuides/Kargil War_ INDIA.pdf')}}" style="text-align:right;"><h4>Background Guide</h4></a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <div class="card-header" id="CRISISheadingFive" data-toggle="collapse" data-target="#CRISIScollapseFive" aria-expanded="false" aria-controls="CRISIScollapseFive">
+                        <h4>  JCC Kargil War: The Fight for Kashmir: Pakistan</h4>
+                    </div>
+                    <div id="CRISIScollapseFive" class="collapse" aria-labelledby="CRISISheadingFive" data-parent="#crisisAccordion">
+                      <div class="card-body">
+                        <p>The “JCC Kargil War— The Battle for Kashmir” committee will aim to resolve disputes between India and Pakistan as both nations fight over the Siachen Glacier region. The partition of 1947 created unresolved tension, which was never fully addressed by treaties made thereon after. The Indian side will aim to keep the ‘Line of Control’ as it stands currently, while the Pakistan side will seek to extend the border into current Indian territory. </p>
+                        <hr><a href="{{url_for('static', filename='lib/BackgroundGuides/Kargil War_ PAKISTAN.pdf')}}" style="text-align:right;"><h4>Background Guide</h4></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+            </div>
+  </div>
+</section><!-- #team -->
+
+
+
+{% endblock %}

@@ -1,0 +1,21 @@
+<html>
+	<head>
+		<link rel="stylesheet" href="{{url_for('static', filename='lib/flipclock/css/flipclock.css')}}">
+
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+
+		<script src="{{url_for('static', filename='js/flipclock.js')}}"></script>
+	</head>
+	<body>
+	<div class="clock" style="margin:2em;"></div>
+	<div class="message"></div>
+
+	<script type="text/javascript">
+	var clock = $('.clock').FlipClock(3600 * 24 * 10, {
+	clockFace: 'DailyCounter',
+	countdown: true
+});
+	</script>
+
+	</body>
+</html>

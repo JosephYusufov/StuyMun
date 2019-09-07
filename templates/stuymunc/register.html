@@ -1,0 +1,25 @@
+{% extends "stuymunc/home.html" %}
+
+{% block head %}
+<script src="{{url_for('static', filename='js/main.js')}}"></script>
+{% endblock head %}
+
+{% block body %}
+<section id="portfolio">
+  <div class="portfolio-overlay" style="height: 100%;">
+    <div class="portfolio-item" style='text-align: center; background: #1B315D;'>
+    <h2 style="margin-top: 5%; color: white;
+    margin-bottom: 30px;
+    font-size: 40px;
+    font-weight: 700;">Register for StuyMUNC 2019</h2>
+    </div>
+    <div class="row">
+      <div class="col"></div>
+    <div class="row">
+    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdpph0toDbiP1UlN_SxUnQoXh1wKLsQ0vR6sWDom4xNeT9zJg/viewform?embedded=true" width="640" height="2756" frameborder="0" marginheight="0" marginwidth="0">StuyMUNC Registration Form</iframe>
+    </div>
+    <div class="col"></div>
+
+    </div>
+</section>
+{% endblock %}
