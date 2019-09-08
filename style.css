@@ -95,7 +95,12 @@ body {
     display: inline-block;
     vertical-align: top;
     text-align: justify;
-    width: 70%;
+    width: 100%;
+}
+
+#announcements .title {
+    text-align: center;
+    vertical-align: top;
 }
 
 #announcements .title {
@@ -103,14 +108,12 @@ body {
     color: white;
     font-size: 50px;
     font-weight: bold;
-    margin-left: 5%;
 }
 
 #announcements .desc {
     font-family: 'Red Hat Display';
     color: white;
     font-size: 20px;
-    margin-left: 5%;
     float: right;
 }
 
