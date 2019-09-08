@@ -18,7 +18,7 @@ body {
 /* banner */
 
 #banner {
-    background: linear-gradient(rgba(46,118,187, 0.5), rgba(255, 255, 255, 0.25)), url('static/img/stuymunc19.jpg');
+    background: linear-gradient(rgba(46,118,187, 0.5), rgba(255, 255, 255, 0.25)), url('https://raw.githubusercontent.com/JosephYusufov/StuyMun/master/static/img/stuymunc19.jpg');
     /*background-image: url('static/img/stuymunc19.jpg');*/
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -117,17 +117,6 @@ body {
     float: right;
 }
 
-#announcements .img-holder {
-    background-image: url(static/img/minimuncII-web-01.png);
-    background-size: cover;
-    /*height: 237.5px;
-    width: 175px;*/
-    height:475px;
-    width:350px;
-    display: inline-block;
-    vertical-align: top;
-}
-
 #announcements .smr-holder {
     width: 100%;
     text-align: center;
@@ -177,7 +166,7 @@ body {
 /* about */
 
 #about {
-    background: linear-gradient(rgba(46,118,187, 0.75), rgba(0, 0, 0, 0.5)), url('static/img/conferences/brown2018.JPG');
+    background: linear-gradient(rgba(46,118,187, 0.75), rgba(0, 0, 0, 0.5)), url('https://raw.githubusercontent.com/JosephYusufov/StuyMun/master/static/img/conferences/brown2018.JPG');
     opacity: 0.75;
     background-attachment: fixed;
     background-repeat: no-repeat;
