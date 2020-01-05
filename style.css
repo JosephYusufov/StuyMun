@@ -5,6 +5,7 @@
 
 /* colors:
 #2E76BB - blue
+#1d4077 - StuyMUN blue
 */
 
 /* ----- ACTUAL CSS ----- */
@@ -361,7 +362,7 @@ body {
 /* banner2 */
 
 #banner2 {
-    background: #2E76BB;
+    background: #1d4077;
     /*background-image: url('static/img/stuymunc19.jpg');*/
     height: 100vh;
     text-align: center;
@@ -398,7 +399,7 @@ body {
 }
 
 #info-minimunc .title {
-    color: #2E76BB;
+    color: #1d4077;
     font-family: "Red Hat Display";
     font-size: 50px;
     font-weight: 900;
@@ -416,14 +417,14 @@ body {
 }
 
 #info-minimunc .desc {
-    color: #2E76BB;
+    color: #1d4077;
     font-family: "Red Hat Display";
     font-size: 20px;
 }
 
 #info-minimunc .sign-off {
     float: right;
-    color: #2E76BB;
+    color: #1d4077;
     font-family: "Red Hat Display";
     font-size: 20px;
     font-style: italic;
@@ -434,7 +435,7 @@ body {
 }
 
 #info-minimunc .checkout {
-    color: #2E76BB;
+    color: #1d4077;
     font-family: "Red Hat Display";
     font-size: 20px;
     font-weight: 700;
@@ -443,18 +444,16 @@ body {
 #info-minimunc iframe {
     border-radius: 5%;
     padding: 2em;
-    background-color: #2E76BB;
+    background-color: #1d4077;
     margin-bottom: 2.5%;
 }
 
 #committees {
-    background: #2E76BB;
-    color: white;
+    background: white;
+    color: #1d4077;
     padding-top: 2.5%;
     padding-bottom: 2.5%;
     text-align: center;
-    padding-left: 5%;
-    padding-right: 5%;
 }
 
 #committees .title {
@@ -466,72 +465,130 @@ body {
 #committees .description {
     font-family: 'Red Hat Display';
     font-size: 20px;
-}
-
-.comm-container {
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: center;
-	align-items: stretch;
+    padding-left: 2.5%;
+    padding-right: 2.5%;
 }
 
 .comm-card {
-	padding: 1%;
-    width: 35%;
-    margin: 2%;
-    margin-bottom: 2%;
-    text-align: center;
-    background: white;
-    border-radius: 10px;
+    height: 40vh;
+    width: 100%;
+    text-align: left;
     font-family: "Red Hat Display";
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+}
+
+#disec {
+    background: url(https://cdn.britannica.com/13/94113-050-043A9DE8/test-thermonuclear-weapon-Enewetak-atoll-Marshall-Islands-Nov-1-1952.jpg);
+    background-position: top;
+    background-size: cover;
 }
 
 #unhcr {
-    color: #681329;
+    background: url(https://www.nationalgeographic.com/content/dam/photography/PROOF/2018/June/venezuela-refugees/01-venezuela-refugees-bolivar.adapt.1900.1.jpg);
+    background-position: center;
+    background-size: cover;
 }
 
-#wfp {
-    color: #4e2567;
+#unwomen {
+    background: url(https://www.presencelearning.com/app/uploads/2015/02/cyberbullying.jpg);
+    background-position: center;
+    background-size: cover;
 }
 
-#ioc {
-    color: #10747c;
+#nycc {
+    background: url(https://static01.nyt.com/images/2019/10/18/nyregion/18nytoday/merlin_107959096_0a5a6da0-9e54-4e70-bbb4-c69d00c000bf-superJumbo.jpg);
+    background-position: center;
+    background-size: cover;
 }
 
-#ilo {
-    color: #8f5025;
+#unsc {
+    background: url(https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/assets/2019/02/25-02-2019_UNAMID_ArialView-Graida.jpg/image1170x530cropped.jpg);
+    background-size: cover;
+    background-position: center;
 }
 
-#cher {
-    color: #288441;
+#senate {
+    background: url(https://cdn.britannica.com/24/187924-050-D8384718/Andrew-Johnson-soldiers-Confederate-White-House-Washington-1865.jpg);
+    background-size: cover;
+    background-position: center;
 }
 
-.comm-card {
-    padding-top: 2em;
-    padding-bottom: 2em;
-    box-shadow: 10px 10px #eeeeee;
-    padding-left: 2em;
-    padding-right: 2em;
+#unep {
+    background: url(https://fortresslight.com/wp-content/uploads/2017/10/small-island-states.jpg);
+    background-size: cover;
+    background-position: top;
+}
+
+#nba {
+    background: url(https://static01.nyt.com/images/2011/06/24/sports/sub-nba/sub-nba-jumbo.jpg);
+    background-size: cover;
+    background-position: top;
+}
+
+#gcs {
+    background: url(https://media.nationalgeographic.org/assets/photos/752/084/38949d2c-324e-4df6-b2cd-58a27f2c4cca.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#acc {
+    background: url(https://themobmuseum.org/wp-content/uploads/2019/05/1929-Atlantic-City-Capone-and-Nucky_crop.png);
+    background-size: cover;
+    background-position: top;
+}
+
+#acc p {
+    background-color: black;
+}
+
+#nixon {
+    background: url(https://cdn10.picryl.com/photo/1972/06/16/president-richard-nixon-with-his-1972-cabinet-members-a90212-1600.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#hongkong {
+    background: url(https://static.independent.co.uk/s3fs-public/thumbnails/image/2020/01/01/12/hong-kong-march.jpg);
+    background-size: cover;
+}
+
+#bellbreakup {
+    background: url(https://image.businessinsider.com/5a970cb3aae60518008b457b?width=1136&format=jpeg);
+    background-size: cover;
 }
 
 .comm-card .name {
-	font-family: 'Montserrat' !important;
+    margin-left: 10vh;
+    font-family: 'Red Hat Display' !important;
+    color: white;
 	font-weight: bold;
     font-size: 50px;
 }
 
 .comm-card .type {
+    margin-left: 10vh;
 	font-style: italic;
     font-size: 18px;
     font-family: 'Red Hat Display';
+    color: white;
 }
 
-.comm-card .desc {
-    font-size: 14px;
-    line-height: 5px;
+.comm-card .type2 {
+    margin-left: 10vh;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 18px;
+    font-family: 'Red Hat Display';
+    color: white;
 }
 
-.comm-card .description {
+.comm-card p {
+    margin-left: 10vh;
+    margin-right: 10vh;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
     text-align: justify !important;
 }
 
@@ -545,13 +602,13 @@ body {
     font-weight: 700;
     border-radius: 10px;
     width: 100%;
-    background-color: #2E76BB;
+    background-color: #1d4077;
     transition: 0.3s;
 }
 
 .comm-card a:hover {
     background-color: white;
-    color: #2E76BB;
+    color: #1d4077;
     border-style: solid;
     border-width: 3px;
     transition: 0.3s;
@@ -566,14 +623,14 @@ body {
 }
 
 #interested-minimunc .header {
-    color: #2E76BB;
+    color: #1d4077;
     font-family: "Red Hat Display";
     font-size: 50px;
     font-weight: 900;
 }
 
 #interested-minimunc .text {
-    color: #2E76BB;
+    color: #1d4077;
     font-family: 'Montserrat';
     font-size: 30px;
 }
