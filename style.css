@@ -370,8 +370,8 @@ body {
 }
 
 #banner2 img {
-    width: auto;
-    height: 50%;
+    width: 25vw;
+    height: auto;
     padding-top: 8vh;
     padding-bottom: 6vh;
 }
@@ -465,12 +465,10 @@ body {
 #committees .description {
     font-family: 'Red Hat Display';
     font-size: 20px;
-    padding-left: 2.5%;
-    padding-right: 2.5%;
+    text-align: justify;
 }
 
 .comm-card {
-    height: 40vh;
     width: 100%;
     text-align: left;
     font-family: "Red Hat Display";
@@ -485,7 +483,7 @@ body {
 }
 
 #unhcr {
-    background: url(https://www.nationalgeographic.com/content/dam/photography/PROOF/2018/June/venezuela-refugees/01-venezuela-refugees-bolivar.adapt.1900.1.jpg);
+    background: url(https://storage.googleapis.com/afs-prod/media/73a02635336848979753cfc392ee9506/3000.jpeg);
     background-position: center;
     background-size: cover;
 }
@@ -538,10 +536,6 @@ body {
     background-position: top;
 }
 
-#acc p {
-    background-color: black;
-}
-
 #nixon {
     background: url(https://cdn10.picryl.com/photo/1972/06/16/president-richard-nixon-with-his-1972-cabinet-members-a90212-1600.jpg);
     background-size: cover;
@@ -562,6 +556,7 @@ body {
     margin-left: 10vh;
     font-family: 'Red Hat Display' !important;
     color: white;
+    background: #1d4077;
 	font-weight: bold;
     font-size: 50px;
 }
@@ -572,6 +567,7 @@ body {
     font-size: 18px;
     font-family: 'Red Hat Display';
     color: white;
+    background: #1d4077;
 }
 
 .comm-card .type2 {
@@ -581,6 +577,7 @@ body {
     font-size: 18px;
     font-family: 'Red Hat Display';
     color: white;
+    background: #1d4077;
 }
 
 .comm-card p {
@@ -589,19 +586,22 @@ body {
     font-size: 15px;
     font-weight: bold;
     color: white;
+    background: #1d4077;
     text-align: justify !important;
 }
 
 .comm-card a {
-    display:inline-block;
+    float: right;
     padding-top: 0.5em;
     padding-bottom: 0.5em;
     text-decoration: none;
     color: white;
+    text-align: center;
+    margin-right: 10vh;
     font-family: 'Red Hat Display';
     font-weight: 700;
     border-radius: 10px;
-    width: 100%;
+    width: 25vw;
     background-color: #1d4077;
     transition: 0.3s;
 }
