@@ -456,7 +456,55 @@ body {
     text-align: center;
 }
 
+.stuymunc-container {
+    /* display: flex; */
+    /* align-items: center; */
+    
+}
+.stuymunc-body {
+    background: white;
+    color: #1d4077;
+    padding-top: 2.5%;
+    padding-bottom: 2.5%;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: "Red Hat Display";
+    font-size: 1em;
+    font-weight: 700;
+
+}
+
+#register {
+    background: #1d4077;
+    color: white;
+    padding-top: 2.5%;
+    padding-bottom: 2.5%;
+    text-align: center;
+}
+
+.page-title {
+    background: white;
+    color: #1d4077;
+    padding-top: 2.5%;
+    padding-bottom: 2.5%;
+    text-align: center;
+}
+
+.page-title .title {
+    color: #1d4077;
+    font-family: "Red Hat Display";
+    font-size: 50px;
+    font-weight: 900;
+}
+
 #committees .title {
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 50px;
+}
+
+#register .title {
     font-family: 'Montserrat';
     font-weight: 700;
     font-size: 50px;
@@ -614,6 +662,43 @@ body {
     transition: 0.3s;
 }
 
+#register a {
+    /* float: ; */
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    padding-left: 10vw;
+    padding-right: 10vw;    
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    margin-right: 10vh;
+    font-family: 'Red Hat Display';
+    font-weight: 700;
+    border-radius: 5px;
+    /* border-color: white; */
+    border: 2px solid white;
+    /* width: 25vw; */
+    background-color: #1d4077;
+    transition: 0.3s;
+    margin: 0 10px;
+}
+
+#register a:hover {
+    background-color: white;
+    color: #1d4077;
+    border-style: solid;
+    border-width: 3px;
+    transition: 0.3s;
+}
+
+hr {
+    width: 80vw;
+    color: white;
+    background: #1d4077;
+    padding: 0;
+    margin: 0;
+}
+
 #interested-minimunc {
     margin-top: 2.5%;
     margin-bottom: 2.5%;
@@ -637,4 +722,139 @@ body {
 
 .video{
     margin-bottom: 2.5%;
+}
+
+/* stuymunc-banner */
+
+
+.stuymunc-banner {
+    background: #1d4077;
+    /*background-image: url('static/img/stuymunc19.jpg');*/
+    height: 8vh;
+    text-align: center;
+    word-wrap: break-word;
+}
+
+.stuymunc-banner img {
+    vertical-align: middle;
+    width: auto;
+    height: 90%;
+    /* padding-top: 8vh; */
+    /* padding-bottom: 6vh; */
+    float: left;
+    margin: 0 2vw;
+}
+
+.stuymunc-banner .stuymunc-header {
+    color: white;
+    font-family: 'Montserrat';
+    font-size: 3vh;
+    font-weight: 700;
+    float: center;
+    vertical-align: middle;
+    margin: auto 2vw;    
+}
+
+.stuymunc-banner .stuymunc-date {
+    color: white;
+    font-family: 'Montserrat';
+    font-size: 3vh;
+    font-weight: 700;
+    float: right;
+    margin: auto 2vw;    
+}
+
+.email{
+    font-weight: 700;
+    font-size: 1.5em;
+}
+.stuymunc-body a {
+    /* float: ; */
+    display: block;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    padding-left: 10vw;
+    padding-right: 10vw;    
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    font-family: 'Red Hat Display';
+    font-weight: 700;
+    border-radius: 5px;
+    /* border-color: white; */
+    border: 2px solid white;
+    /* width: 25vw; */
+    background-color: #1d4077;
+    transition: 0.3s;
+    margin: 0 10px;
+    float: middle;
+}
+
+.stuymunc-body a:hover {
+    background-color: white;
+    color: #1d4077;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #1d4077;
+    transition: 0.3s;
+}
+
+/* .stuymunc-banner .location-info { */
+/*     color: white; */
+/*     font-family: 'Montserrat'; */
+/*     font-size: 50px; */
+/*     font-weight: 700; */
+/* } */
+
+/* .stuymunc-banner .location-detail { */
+/*     color:white; */
+/*     font-family: 'Montserrat'; */
+/*     font-size: 20px; */
+/*     font-weight: 500; */
+/*     font-style: italic; */
+/* } */
+.registration-options{
+    display: flex;
+    justify-content: space-around;
+}
+
+.registration-options > *{
+    border: 3px solid #1d4077;
+    border-radius: 5px;
+    width: 30%;
+    text-align: center;
+}
+
+.registration-options > * > h1{
+    font-weight: 900;
+    
+}
+
+.back {
+    text-align: center;
+    font-family: 'Red Hat Display';
+    font-weight: 700;
+}
+
+.back a {
+    color: #1d4077;
+    font-size: 15px;
+}
+
+.stuymunc-body h2 {
+    color: #1d4077;
+    font-family: "Red Hat Display";
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.stuymunc-body h3 {
+    color: #1d4077;
+    font-family: "Red Hat Display";
+    font-weight: 900;
+}
+
+#back-link{
+    color: white;
+    font-size: 15px;   
 }
